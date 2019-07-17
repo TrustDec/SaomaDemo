@@ -9,9 +9,13 @@ DEPENDENCIES:
   - LBXScan/LBXZXing (~> 2.3)
   - LBXScan/UI (~> 2.3)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LBXScan
+
 SPEC CHECKSUMS:
   LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
 
 PODFILE CHECKSUM: ec227a773d1c77b5b6dfbe7463cea5393273f0d0
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.7.2
