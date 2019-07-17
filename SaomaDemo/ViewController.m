@@ -30,9 +30,11 @@
     [self.view addSubview:textL];
     self.textL = textL;
     
+
+    
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self openScanVCWithStyle:[StyleDIY notSquare]];
+    [self openScanVCWithStyle:[StyleDIY ZhiFuBaoStyle]];
 
 }
 - (void)openScanVCWithStyle:(LBXScanViewStyle*)style
@@ -46,11 +48,16 @@
         self.textL.text = code;
     };
     [self.navigationController pushViewController:vc animated:YES];
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
 
 
 @end

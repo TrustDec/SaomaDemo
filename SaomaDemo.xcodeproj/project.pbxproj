@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593BABF622DF017200B55EE9 /* LBXScanPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 593BABF422DF017200B55EE9 /* LBXScanPermissions.m */; };
 		BCD709B455C384022187753B /* libPods-SaomaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D27977C11E80D3EB8A8B4 /* libPods-SaomaDemo.a */; };
 		DA79B51B20198BBC00409A61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B51A20198BBB00409A61 /* AppDelegate.m */; };
 		DA79B51E20198BBC00409A61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B51D20198BBC00409A61 /* ViewController.m */; };
@@ -14,32 +15,15 @@
 		DA79B52320198BBC00409A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA79B52220198BBC00409A61 /* Assets.xcassets */; };
 		DA79B52620198BBC00409A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA79B52420198BBC00409A61 /* LaunchScreen.storyboard */; };
 		DA79B52920198BBC00409A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B52820198BBC00409A61 /* main.m */; };
-		DA79B53320198BBE00409A61 /* SaomaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B53220198BBE00409A61 /* SaomaDemoTests.m */; };
-		DA79B53E20198BBE00409A61 /* SaomaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B53D20198BBE00409A61 /* SaomaDemoUITests.m */; };
 		DA79B54D2019B91A00409A61 /* DIYScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B54C2019B91900409A61 /* DIYScanViewController.m */; };
 		DA79B5522019B9F800409A61 /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B54E2019B9F800409A61 /* StyleDIY.m */; };
 		DA79B5532019B9F800409A61 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79B54F2019B9F800409A61 /* Global.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DA79B52F20198BBE00409A61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA79B50E20198BBB00409A61 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA79B51520198BBB00409A61;
-			remoteInfo = SaomaDemo;
-		};
-		DA79B53A20198BBE00409A61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA79B50E20198BBB00409A61 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA79B51520198BBB00409A61;
-			remoteInfo = SaomaDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2E3D27977C11E80D3EB8A8B4 /* libPods-SaomaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaomaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		593BABF422DF017200B55EE9 /* LBXScanPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanPermissions.m; sourceTree = "<group>"; };
+		593BABF522DF017200B55EE9 /* LBXScanPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanPermissions.h; sourceTree = "<group>"; };
 		86897C6F604543793B420DFF /* Pods-SaomaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaomaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo.release.xcconfig"; sourceTree = "<group>"; };
 		88AD216A4E1B5654AEC028CB /* Pods-SaomaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaomaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DA79B51620198BBB00409A61 /* SaomaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaomaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,12 +36,6 @@
 		DA79B52520198BBC00409A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA79B52720198BBC00409A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA79B52820198BBC00409A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA79B52E20198BBE00409A61 /* SaomaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaomaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA79B53220198BBE00409A61 /* SaomaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaomaDemoTests.m; sourceTree = "<group>"; };
-		DA79B53420198BBE00409A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA79B53920198BBE00409A61 /* SaomaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaomaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA79B53D20198BBE00409A61 /* SaomaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaomaDemoUITests.m; sourceTree = "<group>"; };
-		DA79B53F20198BBE00409A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA79B54B2019B91900409A61 /* DIYScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYScanViewController.h; sourceTree = "<group>"; };
 		DA79B54C2019B91900409A61 /* DIYScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYScanViewController.m; sourceTree = "<group>"; };
 		DA79B54E2019B9F800409A61 /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDIY.m; sourceTree = "<group>"; };
@@ -73,20 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD709B455C384022187753B /* libPods-SaomaDemo.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA79B52B20198BBE00409A61 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA79B53620198BBE00409A61 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				DA79B51820198BBB00409A61 /* SaomaDemo */,
-				DA79B53120198BBE00409A61 /* SaomaDemoTests */,
-				DA79B53C20198BBE00409A61 /* SaomaDemoUITests */,
 				DA79B51720198BBB00409A61 /* Products */,
 				B4477DC7D8826C8EAFE19CDB /* Pods */,
 				EDA19B17EB48DA83A64AF8D5 /* Frameworks */,
@@ -118,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				DA79B51620198BBB00409A61 /* SaomaDemo.app */,
-				DA79B52E20198BBE00409A61 /* SaomaDemoTests.xctest */,
-				DA79B53920198BBE00409A61 /* SaomaDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +87,8 @@
 		DA79B51820198BBB00409A61 /* SaomaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				593BABF522DF017200B55EE9 /* LBXScanPermissions.h */,
+				593BABF422DF017200B55EE9 /* LBXScanPermissions.m */,
 				DA79B51920198BBB00409A61 /* AppDelegate.h */,
 				DA79B51A20198BBB00409A61 /* AppDelegate.m */,
 				DA79B51C20198BBC00409A61 /* ViewController.h */,
@@ -145,24 +107,6 @@
 				DA79B52820198BBC00409A61 /* main.m */,
 			);
 			path = SaomaDemo;
-			sourceTree = "<group>";
-		};
-		DA79B53120198BBE00409A61 /* SaomaDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA79B53220198BBE00409A61 /* SaomaDemoTests.m */,
-				DA79B53420198BBE00409A61 /* Info.plist */,
-			);
-			path = SaomaDemoTests;
-			sourceTree = "<group>";
-		};
-		DA79B53C20198BBE00409A61 /* SaomaDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DA79B53D20198BBE00409A61 /* SaomaDemoUITests.m */,
-				DA79B53F20198BBE00409A61 /* Info.plist */,
-			);
-			path = SaomaDemoUITests;
 			sourceTree = "<group>";
 		};
 		EDA19B17EB48DA83A64AF8D5 /* Frameworks */ = {
@@ -184,7 +128,6 @@
 				DA79B51220198BBB00409A61 /* Sources */,
 				DA79B51320198BBB00409A61 /* Frameworks */,
 				DA79B51420198BBB00409A61 /* Resources */,
-				DBB58767245273D207039D92 /* [CP] Embed Pods Frameworks */,
 				21A872551116C9C68E8B894A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -195,42 +138,6 @@
 			productName = SaomaDemo;
 			productReference = DA79B51620198BBB00409A61 /* SaomaDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DA79B52D20198BBE00409A61 /* SaomaDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA79B54520198BBE00409A61 /* Build configuration list for PBXNativeTarget "SaomaDemoTests" */;
-			buildPhases = (
-				DA79B52A20198BBE00409A61 /* Sources */,
-				DA79B52B20198BBE00409A61 /* Frameworks */,
-				DA79B52C20198BBE00409A61 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA79B53020198BBE00409A61 /* PBXTargetDependency */,
-			);
-			name = SaomaDemoTests;
-			productName = SaomaDemoTests;
-			productReference = DA79B52E20198BBE00409A61 /* SaomaDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DA79B53820198BBE00409A61 /* SaomaDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA79B54820198BBE00409A61 /* Build configuration list for PBXNativeTarget "SaomaDemoUITests" */;
-			buildPhases = (
-				DA79B53520198BBE00409A61 /* Sources */,
-				DA79B53620198BBE00409A61 /* Frameworks */,
-				DA79B53720198BBE00409A61 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA79B53B20198BBE00409A61 /* PBXTargetDependency */,
-			);
-			name = SaomaDemoUITests;
-			productName = SaomaDemoUITests;
-			productReference = DA79B53920198BBE00409A61 /* SaomaDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -244,16 +151,6 @@
 					DA79B51520198BBB00409A61 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					DA79B52D20198BBE00409A61 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DA79B51520198BBB00409A61;
-					};
-					DA79B53820198BBE00409A61 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DA79B51520198BBB00409A61;
 					};
 				};
 			};
@@ -271,8 +168,6 @@
 			projectRoot = "";
 			targets = (
 				DA79B51520198BBB00409A61 /* SaomaDemo */,
-				DA79B52D20198BBE00409A61 /* SaomaDemoTests */,
-				DA79B53820198BBE00409A61 /* SaomaDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,20 +183,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA79B52C20198BBE00409A61 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA79B53720198BBE00409A61 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -311,7 +192,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo-resources.sh",
 				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -320,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A715139B7D48BD19DEFAA988 /* [CP] Check Pods Manifest.lock */ = {
@@ -341,21 +222,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DBB58767245273D207039D92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaomaDemo/Pods-SaomaDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,41 +233,13 @@
 				DA79B54D2019B91A00409A61 /* DIYScanViewController.m in Sources */,
 				DA79B5522019B9F800409A61 /* StyleDIY.m in Sources */,
 				DA79B51E20198BBC00409A61 /* ViewController.m in Sources */,
+				593BABF622DF017200B55EE9 /* LBXScanPermissions.m in Sources */,
 				DA79B52920198BBC00409A61 /* main.m in Sources */,
 				DA79B51B20198BBC00409A61 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA79B52A20198BBE00409A61 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA79B53320198BBE00409A61 /* SaomaDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA79B53520198BBE00409A61 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA79B53E20198BBE00409A61 /* SaomaDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DA79B53020198BBE00409A61 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA79B51520198BBB00409A61 /* SaomaDemo */;
-			targetProxy = DA79B52F20198BBE00409A61 /* PBXContainerItemProxy */;
-		};
-		DA79B53B20198BBE00409A61 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA79B51520198BBB00409A61 /* SaomaDemo */;
-			targetProxy = DA79B53A20198BBE00409A61 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DA79B51F20198BBC00409A61 /* Main.storyboard */ = {
@@ -533,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 75AW6W23F9;
+				DEVELOPMENT_TEAM = V3YBA68W6J;
 				GCC_PREFIX_HEADER = SaomaDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SaomaDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -550,7 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 75AW6W23F9;
+				DEVELOPMENT_TEAM = V3YBA68W6J;
 				GCC_PREFIX_HEADER = SaomaDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SaomaDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -558,64 +396,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZH.SaomaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		DA79B54620198BBE00409A61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AR497R3L3;
-				INFOPLIST_FILE = SaomaDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZH.SaomaDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaomaDemo.app/SaomaDemo";
-			};
-			name = Debug;
-		};
-		DA79B54720198BBE00409A61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AR497R3L3;
-				INFOPLIST_FILE = SaomaDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZH.SaomaDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaomaDemo.app/SaomaDemo";
-			};
-			name = Release;
-		};
-		DA79B54920198BBE00409A61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AR497R3L3;
-				INFOPLIST_FILE = SaomaDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZH.SaomaDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SaomaDemo;
-			};
-			name = Debug;
-		};
-		DA79B54A20198BBE00409A61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AR497R3L3;
-				INFOPLIST_FILE = SaomaDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZH.SaomaDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SaomaDemo;
 			};
 			name = Release;
 		};
@@ -636,24 +416,6 @@
 			buildConfigurations = (
 				DA79B54320198BBE00409A61 /* Debug */,
 				DA79B54420198BBE00409A61 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA79B54520198BBE00409A61 /* Build configuration list for PBXNativeTarget "SaomaDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA79B54620198BBE00409A61 /* Debug */,
-				DA79B54720198BBE00409A61 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA79B54820198BBE00409A61 /* Build configuration list for PBXNativeTarget "SaomaDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA79B54920198BBE00409A61 /* Debug */,
-				DA79B54A20198BBE00409A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
