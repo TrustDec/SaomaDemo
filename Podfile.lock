@@ -1,0 +1,17 @@
+PODS:
+  - LBXScan/LBXZXing (2.3):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/Types (2.3)
+  - LBXScan/UI (2.3):
+    - LBXScan/Types (~> 2.2)
+
+DEPENDENCIES:
+  - LBXScan/LBXZXing (~> 2.3)
+  - LBXScan/UI (~> 2.3)
+
+SPEC CHECKSUMS:
+  LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
+
+PODFILE CHECKSUM: ec227a773d1c77b5b6dfbe7463cea5393273f0d0
+
+COCOAPODS: 1.4.0
